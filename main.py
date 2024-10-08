@@ -36,4 +36,4 @@ plt.ylabel('Acceleration (m/s$^2$)', fontsize=8)
 plt.grid(True)
 
 plt.tight_layout()
-plt.show()
+plt.savefig('result.png', bbox_inches='tight')
